@@ -5,5 +5,5 @@ pipeline:
      KEY1: "VAL1"
   stages:
      - stage: Checking
-        steps:
-           - echo "Envinronmet is $KEY1"
+       steps:
+          - echo "Envinronmet is $KEY1"
