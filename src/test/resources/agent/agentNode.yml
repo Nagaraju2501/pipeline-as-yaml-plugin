@@ -2,3 +2,7 @@ pipeline:
   agent:
     node:
       label: 'RELEASE'
+  stages:
+    - stage: Stage
+      steps:
+        - echo "test-output-${env.BRANCH_NAME}"
