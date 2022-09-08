@@ -1,10 +1,12 @@
 pipeline: 
-   post: 
-     always:
-       - echo Test 
-     changed:
-       - echo Test
-   stages:
-    - stage: Post
-      steps:
-         - echo "Post Scripts"
+  agent: 
+    any: 
+  post: 
+    always:
+      - echo Test 
+    changed:
+     - echo Test
+  stages:
+   - stage: Post
+     steps:
+       - echo "Post Scripts"
