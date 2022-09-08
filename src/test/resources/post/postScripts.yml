@@ -1,4 +1,6 @@
 pipeline:
+  agent: 
+    any: 
   post:
     always:
       script:
@@ -30,3 +32,8 @@ pipeline:
     cleanup:
       script:
         - echo Test
+ 
+  stages:
+     - stage: Post
+       steps:
+          - echo "Using Post Scripts"
