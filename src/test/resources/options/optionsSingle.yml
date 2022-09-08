@@ -3,3 +3,7 @@ pipeline:
       any: 
   options:
     - "timeout(time: 1, unit: 'HOURS')"
+  stages:
+     - stage: Checking
+       steps:
+          - echo "Using Optins"
