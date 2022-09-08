@@ -33,7 +33,4 @@ pipeline:
       script:
         - echo Test
  
-  stages:
-     - stage: Post
-       steps:
-          - echo "Using Post Scripts"
+ 
