@@ -1,4 +1,4 @@
 pipeline:
   agent:
     node:
-      label: 'label'
+      label: 'RELEASE'
