@@ -1,3 +1,7 @@
 pipeline:
   environment:
     KEY1: "VAL1"
+   stages:
+    - stage: Checking Environment
+      steps:
+        - echo "Current Environment is $KEY1"
