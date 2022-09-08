@@ -1,5 +1,6 @@
 --- 
-pipeline: 
+agent: 
+  any: ~
   environment: 
     KEY1: VAL1
   stages: 
@@ -7,3 +8,4 @@ pipeline:
       stage: Checking
       steps: 
         - "echo \"Current Environment is $KEY1\""
+pipeline: ~
