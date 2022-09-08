@@ -32,5 +32,10 @@ pipeline:
     cleanup:
       script:
         - echo Test
+        
+    stages:
+    - stage: Post
+      steps:
+         - echo "Post Scripts"
  
  
