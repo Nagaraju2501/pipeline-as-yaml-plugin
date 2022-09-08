@@ -1,12 +1,9 @@
---- 
 pipeline:
-agent: 
-  any: ~
+  agent: 
+    any: 
   environment: 
-    KEY1: VAL1
-  stages: 
-    - 
-      stage: Checking
-      steps: 
-        - "echo \"Current Environment is $KEY1\""
-
+     KEY1: "VAL1"
+  stages:
+     - stage: Checking
+        steps:
+           - echo "Envinronmet is $KEY1"
